@@ -19,27 +19,27 @@
 
     <dependencies>
 
-        <!-- TestNG Environments -->
+        <!-- TestNG Masking-Rules -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <scope>test</scope>
         </dependency>
 
-        <!-- Selenium Environments -->
+        <!-- Selenium Masking-Rules -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
         </dependency>
 
-        <!-- Lombok Environments -->
+        <!-- Lombok Masking-Rules -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <scope>provided</scope>
         </dependency>
 
-        <!-- Logback Environments -->
+        <!-- Logback Masking-Rules -->
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
@@ -50,7 +50,7 @@
     <build>
         <plugins>
 
-            <!-- Surefire Plagin Environments -->
+            <!-- Surefire Plagin Masking-Rules -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
