@@ -15,7 +15,7 @@
         <module>API</module>
     </modules>
 
-    <!-- Пропертіз -->
+    <!-- Properties -->
 
     <properties>
         <project.version>1.0.0-SNAPSHOT</project.version>
@@ -32,7 +32,7 @@
         <cucumber.version>7.15.0</cucumber.version>
     </properties>
 
-    <!-- Депенденсіз Dependency Management -->
+    <!-- Dependencies Dependency Management -->
     <dependencyManagement>
     <dependencies>
 
@@ -79,7 +79,7 @@
     </dependencies>
     </dependencyManagement>
 
-    <!-- Депенденсіз Allure-->
+    <!-- Dependencies Allure-->
 
     <dependencies>
         <dependency>
@@ -88,7 +88,7 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Депенденсіз Cucumber-->
+        <!-- Dependencies Cucumber-->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
@@ -104,7 +104,7 @@
 
 
 
-    <!-- Конфігурація для виконання тестів з TestNG -->
+    <!-- Configuration for run tests using TestNG -->
     <build>
         <plugins>
 
