@@ -9,10 +9,10 @@
     <version>${project.version}</version>
     <packaging>pom</packaging>
     <modules>
-        <module>Environments</module>
-        <module>Masking-Rules</module>
-        <module>Login</module>
-        <module>API</module>
+        <module>environments</module>
+        <module>masking-rules</module>
+        <module>login</module>
+        <module>api</module>
     </modules>
 
     <!-- Properties -->
